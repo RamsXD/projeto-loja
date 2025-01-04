@@ -1,0 +1,75 @@
+/* reset geral */
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato";
+  font-style: italic;
+}
+
+body{
+  background-color: bisque;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  
+}
+
+header nav{
+  width: 70vw;
+}
+
+.container-central {
+  position: relative;
+  height: 12vh;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.container-central h1 {
+  font-family: 'paprika';
+}
+
+.container-central h1 img {
+  width: 150px;
+}
+
+.container-central .icones img {
+  width: 20px;
+}
+
+.container-central .icones span {
+  cursor: pointer;
+}
+
+.icones {
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
+.icones span {
+  padding: 8px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+nav ul li {
+  font-size: 1rem;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
